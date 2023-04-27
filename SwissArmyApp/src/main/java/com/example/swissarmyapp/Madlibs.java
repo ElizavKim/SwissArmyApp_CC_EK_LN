@@ -56,6 +56,7 @@ public class Madlibs {
     }
     @FXML
     protected void generateStory2() {
+
         //story taken from https://www.phillymag.com/foobooz/2023/03/20/tony-burritos-foodery-roxborough/
         story2.setText("Tony's Burritos serves, as its name suggests, burritos - thick as your " + story2Noun.getText()
                 + ", messy as \nheck, crisped in the oven to add some structure and filled with all the usual " +

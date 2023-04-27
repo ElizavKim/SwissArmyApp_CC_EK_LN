@@ -16,7 +16,7 @@ public class Settings {
 
     @FXML
     protected boolean changeAppColor() {
-
+        return false;
 
     }
 
