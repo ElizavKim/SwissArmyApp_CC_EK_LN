@@ -11,14 +11,14 @@ import java.io.IOException;
 
 
 public class Settings {
-    @FXML
-    private ToggleButton colorToggle;
-
-    @FXML
-    protected boolean changeAppColor() {
-        return false;
-
-    }
+//    @FXML
+//    private ToggleButton colorToggle;
+//
+//    @FXML
+//    protected boolean changeAppColor() {
+//        return false;
+//
+//    }
 
 }
 
