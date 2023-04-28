@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="790.0" prefWidth="1206.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.swissarmyapp.Madlibs">
+<AnchorPane fx:id="anchorPane" prefHeight="790.0" prefWidth="1206.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.swissarmyapp.Madlibs">
    <children>
       <Label alignment="CENTER" contentDisplay="CENTER" layoutX="226.0" layoutY="14.0" text="welcome to mad libs!" AnchorPane.leftAnchor="226.0" AnchorPane.topAnchor="14.0">
          <font>
