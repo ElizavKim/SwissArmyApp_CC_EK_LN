@@ -22,6 +22,7 @@ public class LandingPage {
         ActivityPage.userName = nameInput.getText();
         FXMLLoader fxmlLoader = new FXMLLoader(ActivityPage.class.getResource("activitypage.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 1206, 790);
+        scene.getStylesheets().add("default.css");//CSS ADDED
         ActivityPage controller = fxmlLoader.getController();
         controller.setUserName(ActivityPage.userName);
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();

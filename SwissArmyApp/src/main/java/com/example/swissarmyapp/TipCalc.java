@@ -32,6 +32,7 @@ public class TipCalc {
         stage.setTitle("ActivityPage");
         stage.setScene(scene);
         stage.show();
+        scene.getStylesheets().add("default.css");//CSS ADDED
         ActivityPage activityPage = fxmlLoader.getController();
         activityPage.onBack();
     }

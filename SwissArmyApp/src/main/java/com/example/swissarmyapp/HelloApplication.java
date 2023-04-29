@@ -13,7 +13,8 @@ public class HelloApplication extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("landingpage.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 1206, 790);
         //scene.getStylesheets().add(HelloApplication.class.getResource("/colorchange.css").toExternalForm());
-        stage.setTitle("Hello!");
+        scene.getStylesheets().add("default.css");//added
+        stage.setTitle("Swiss Army App");
         stage.setScene(scene);
         stage.show();
     }

@@ -5,8 +5,9 @@
 <?import javafx.scene.text.*?>
 
 <AnchorPane prefHeight="790.0" prefWidth="1206.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.swissarmyapp.ActivityPage">
+
     <children>
-      <Label fx:id="theTime" layoutX="557.0" layoutY="23.0" prefHeight="56.0" prefWidth="200.0" text="TIME">
+      <Label fx:id="theTime" layoutX="573.0" layoutY="21.0" prefHeight="56.0" prefWidth="200.0" text="TIME">
          <font>
             <Font size="25.0" />
          </font></Label>

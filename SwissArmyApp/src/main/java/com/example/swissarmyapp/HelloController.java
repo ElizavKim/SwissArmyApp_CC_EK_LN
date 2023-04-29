@@ -35,8 +35,10 @@ public class HelloController {
     protected void onHelloButtonClick(ActionEvent event) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(Madlibs.class.getResource("madlibs.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 1206, 790);
+        scene.getStylesheets().add("default.css");//added
+
         Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        stage.setTitle("MadLibs");
+        stage.setTitle("Swiss Army App");
         stage.setScene(scene);
         stage.show();
     }

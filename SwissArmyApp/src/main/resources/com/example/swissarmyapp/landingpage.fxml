@@ -8,15 +8,18 @@
 
 <AnchorPane prefHeight="790.0" prefWidth="1206.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.swissarmyapp.LandingPage">
    <children>
-      <TextField fx:id="nameInput" layoutX="409.0" layoutY="471.0" prefHeight="46.0" prefWidth="258.0" promptText="enter your name" />
-      <Button fx:id="nextB" layoutX="676.0" layoutY="471.0" mnemonicParsing="false" onAction="#theNextButtonClick" prefHeight="46.0" prefWidth="121.0" text="next" />
-      <Circle fill="#404040" layoutX="604.0" layoutY="296.0" radius="93.0" stroke="BLACK" strokeType="INSIDE" />
+      <TextField id="inputBox" fx:id="nameInput" layoutX="409.0" layoutY="471.0" prefHeight="46.0" prefWidth="258.0" promptText="enter your name" />
+      <Button fx:id="nextB" layoutX="676.0" layoutY="471.0" mnemonicParsing="false" onAction="#theNextButtonClick" prefHeight="46.0" prefWidth="121.0" text="next">
+         <font>
+            <Font size="21.0" />
+         </font></Button>
+      <Circle fill="WHITE" layoutX="604.0" layoutY="296.0" radius="93.0" stroke="WHITE" strokeType="INSIDE" />
       <ImageView fitHeight="91.0" fitWidth="111.0" layoutX="548.0" layoutY="252.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../highindlogo.PNG" />
          </image>
       </ImageView>
-      <Label layoutX="465.0" layoutY="400.0" prefHeight="53.0" prefWidth="276.0" text="Swiss Army App" textAlignment="CENTER" textOverrun="CLIP">
+      <Label layoutX="465.0" layoutY="400.0" prefHeight="53.0" prefWidth="276.0" text="Swiss Army App" textAlignment="CENTER" textFill="#684e4e" textOverrun="CLIP">
          <font>
             <Font name="Roboto Light" size="38.0" />
          </font>
